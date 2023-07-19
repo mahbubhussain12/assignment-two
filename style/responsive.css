@@ -1,0 +1,13 @@
+@media screen and (max-width:400px) {
+    .nav-containa{
+        flex-direction: column;
+    }
+    .nav-item-containar{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .logo-containar{
+        justify-content: center;
+    }
+  
+}

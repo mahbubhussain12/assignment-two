@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@400;700;800&family=Satisfy&family=Work+Sans:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+nav{
+    background-color:#FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    
+}
+.nav-containa{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.logo-containar p{
+    font-size: 45px;
+    font-weight: 700;
+}
+.logo-containar{
+    padding: 20px;
+    display: flex; 
+    align-items: center;  
+    gap: 10px;
+    width: 50%;
+}
+
+.logo-containar img{
+    width: 150px;
+    height: 90px;
+}
+.nav-item-containar{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-item-containar a{
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+}
+.Gamer{
+    color: #FF42A5;
+}
+.Follow-us{
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Work Sans;
+    background: rgba(11, 2, 35, 0.10);
+}
+/* nav design end here */
+.banner-containar{
+    border: 1px solid red;
+    margin: 50px auto 0;
+    width: 1400px;
+    height: 600px;
+    display:flex ;
+    
+}
+.banner-tex{
+    border: 1px solid rgb(39, 169, 22) ;
+    width: 50%;
+    text-align: center;
+    background-image:url("../images/Group\ 14.png");
+    flex-shrink: 0;
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+
+
+}
+.banner-img{
+    border: 1px solid rgb(4, 4, 3) ;
+    width: 50%;
+
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
+.banner-tex h3{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.banner-tex h1{
+    margin-top: 2px;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.icon-containarn{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px; 
+    font-weight: 500;   
+}
+.btn-1{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    display: inline-flex;
+    border-radius: 48px;
+    padding: 21px 40px;
+    align-items: flex-start;
+
+}
+.btn-2{
+    background: #4EC5F7;
+    display: inline-flex;
+    border-radius: 48px;
+    padding: 21px 40px;
+    align-items: flex-start;
+    margin-top: 20px;
+
+}
