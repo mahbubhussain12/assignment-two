@@ -351,12 +351,12 @@ nav{
 
 }
 .our-service{
-  
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
     font-family: Work Sans;
     font-size: 18px;
-    font-style: normal;
     font-weight: 600;
+    gap: 20px;
    
    
  

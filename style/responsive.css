@@ -37,4 +37,17 @@
     flex-direction: column;
     }
   
+    .our-service{
+        flex-direction: column;
+    }
+    .icon-containar{
+        flex-direction: column-reverse;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+
+
+
+
+
 }
