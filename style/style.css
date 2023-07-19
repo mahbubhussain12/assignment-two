@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@400;700;800&family=Satisfy&family=Work+Sans:wght@500&display=swap');
 
-*{
-    box-sizing: border-box;
+body{
+    width: 100%;
 }
 nav{
     background-color:#FFF;
@@ -67,7 +67,6 @@ nav{
     padding-left: 100px;
     width: 50%;
     flex-shrink: 0;
-    background-image: url("../images/Group\ 14.png");
     fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
 
 }
@@ -305,55 +304,90 @@ nav{
 }
 /*  Play Instantly ends */
 
-/* Careers-containar strat */
-.Careers-containar{
-    margin: 50px auto 0;
+/* icon-containar start */
+.icon-containar{
     display: flex;
-    height: 821px;
-    flex-shrink: 0;
-    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-    justify-content: center;
     align-items: center;
-    
+    justify-content: center;
+}
+.icon-containar img {
+    gap: 50px;
 
 
 }
-.Careers-img img{
+.icon-containar-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    width: 1013px;
-    height: 821px;
+/* icon-containar end */
+
+
+/* footer section start */
+
+.ff{
+    background-color:#0B0223;;
+}
+.footer section{
+    width: 1400px;
+    height: 636px;
     flex-shrink: 0;
+
+
 }
-.Careers-title h1 {
-    color: #FFF;
+.footer{
+    display: flex;
+    gap: 15px;
+    text-align: center;
     font-family: Work Sans;
-    font-size: 48px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
 
 }
-.Careers-title p {
-    color: #FFF;
+.our-service{
+  
+    text-align: center;
     font-family: Work Sans;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
+    font-weight: 600;
+   
+   
+ 
+}
+.our-service a{
+     text-decoration: none;
+     gap: 50px;
+     color: #FFF;
+     justify-content: space-between;
 
 }
-.Careers-title.btn-1 {
-    width: 1920px;
-    height: 821px;
-    flex-shrink: 0;
+.amer{
+    color: #FFF;
 
 }
-.Careers-img img{
-    width: 1013px;
-    height: 821px;
-    flex-shrink: 0;
+.facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    gap: 50px;
+    margin: 30px;
+}
+.Policy{
+    display: flex;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+    gap: 30px;
 
 }
-
-
-/* Careers-containar ends */
