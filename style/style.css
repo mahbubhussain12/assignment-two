@@ -58,25 +58,20 @@ nav{
 }
 /* nav design end here */
 .banner-containar{
-    border: 1px solid red;
     margin: 50px auto 0;
     width: 1400px;
     height: 600px;
-    display:flex ;
-    
+    display:flex ;  
 }
 .banner-tex{
-    border: 1px solid rgb(39, 169, 22) ;
+    padding-left: 100px;
     width: 50%;
-    text-align: center;
-    background-image:url("../images/Group\ 14.png");
     flex-shrink: 0;
+    background-image: url("../images/Group\ 14.png");
     fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
-
 
 }
 .banner-img{
-    border: 1px solid rgb(4, 4, 3) ;
     width: 50%;
 
 }
@@ -109,20 +104,86 @@ nav{
     font-size: 20px; 
     font-weight: 500;   
 }
+.icon-containar span{
+    padding: 15px;
+}
 .btn-1{
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-    display: inline-flex;
+
     border-radius: 48px;
     padding: 21px 40px;
-    align-items: flex-start;
+
+    color: white;
 
 }
 .btn-2{
     background: #4EC5F7;
-    display: inline-flex;
     border-radius: 48px;
     padding: 21px 40px;
-    align-items: flex-start;
     margin-top: 20px;
+    color: white;
+}
+/* bannar sestion ends */
 
+
+
+.gamer-containar{
+    width: 1400px;
+    height: 600px;
+    margin: 50px auto 0;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gamer-img{
+    width: 60%;
+
+}
+.gamer-img img{
+    width: 868px;
+    height: 489px;
+    flex-shrink: 0;
+
+}
+.gamer-tex{
+    width: 50%;
+    text-align: center
+
+}
+.gamer-tex h2{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-tex p{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.gamer-tex h5{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+}
+.gamer-tex h3{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
 }

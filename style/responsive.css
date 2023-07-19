@@ -1,6 +1,7 @@
 @media screen and (max-width:400px) {
     .nav-containa{
         flex-direction: column;
+
     }
     .nav-item-containar{
         flex-direction: column;
@@ -8,6 +9,15 @@
     }
     .logo-containar{
         justify-content: center;
+    }
+    .banner-containar{
+        flex-direction: column;
+    }
+    .banner-tex , .banner-img{
+        align-items: center;
+        justify-content: center;
+
+        
     }
   
 }
