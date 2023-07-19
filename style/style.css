@@ -126,15 +126,13 @@ nav{
 /* bannar sestion ends */
 
 
-
+/* gamer section strat */
 .gamer-containar{
     width: 1400px;
-    height: 600px;
+    min-width: 400;
     margin: 50px auto 0;
-    flex-shrink: 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 .gamer-img{
     width: 60%;
@@ -170,20 +168,192 @@ nav{
     font-weight: 400;
     line-height: 30px;
 }
-.gamer-tex h5{
+.gamer-tex h6{
     color: #534C64;
     text-align: right;
     font-family: Work Sans;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: 45px;
+    margin-bottom: 0;
 }
-.gamer-tex h3{
+.gamer-tex h5{
     color: #534C64;
     font-family: Work Sans;
     font-size: 32px;
-    font-style: normal;
     font-weight: 700;
     line-height: 45px;
+    margin-top:0 ;
 }
+/* oneline games section start */
+
+.Online-Games-containar{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    max-width: 1400px;
+    margin: 50px auto 0;
+   min-width: 400;
+
+    gap: 10px;
+}
+.oneline-title{
+   text-align: center;
+   font-size: 48px;
+   color: #0B0223;
+   font-family:Work Sans;
+   font-weight: 700;
+}
+.funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+}
+.h5{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.game-1{
+    width:100%;
+}
+.game-1 p{
+    width: 342px;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+.Online-Games-containar img{
+    width: 342px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+/* oneline games section ends */
+
+/*  Play Instantly strat */
+.Play-containar{
+    width: 1400px;
+    height: 800px;
+    margin: 50px auto 0;
+    display: flex;
+}
+.Play-title{
+    justify-content: center;
+    text-align: right;
+    padding-top: 100px;
+    margin-right: 100px;
+    width: 50%;
+
+
+
+}
+.Play-img-containar{
+    width: 50%;
+
+}
+.Play-img-containar img{
+    border-radius: 8px;
+
+}
+.Play-img-containar h1{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0B0223;
+}
+.Play-containar p{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.Play-Instantly{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.Rectangle{
+    border-radius: 8px;
+    width: 318.5px;
+    height: 365.083px;
+    text-align: center;
+    position: relative;
+    bottom: 280px;
+    right: 150px;
+    color:  #FFF;;
+}
+/*  Play Instantly ends */
+
+/* Careers-containar strat */
+.Careers-containar{
+    margin: 50px auto 0;
+    display: flex;
+    height: 821px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.Careers-img img{
+
+    width: 1013px;
+    height: 821px;
+    flex-shrink: 0;
+}
+.Careers-title h1 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+.Careers-title p {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.Careers-title.btn-1 {
+    width: 1920px;
+    height: 821px;
+    flex-shrink: 0;
+
+}
+.Careers-img img{
+    width: 1013px;
+    height: 821px;
+    flex-shrink: 0;
+
+}
+
+
+/* Careers-containar ends */

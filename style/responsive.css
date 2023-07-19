@@ -1,4 +1,4 @@
-@media screen and (max-width:400px) {
+@media screen and (max-width:576px) {
     .nav-containa{
         flex-direction: column;
 
@@ -16,8 +16,28 @@
     .banner-tex , .banner-img{
         align-items: center;
         justify-content: center;
-
         
+    }
+    .gamer-containar{
+        flex-direction: column;
+    }
+    .Online-Games-containar{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .Play-title{
+
+        width: 100%;
+    }
+    .Play-img-containar{
+        width: 100%;
+    
+    }
+    .Play-containar{
+    flex-direction: column;
+    }
+    .Careers-containar{
+        flex-direction: column;
     }
   
 }
