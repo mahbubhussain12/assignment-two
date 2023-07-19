@@ -133,7 +133,6 @@ nav{
     min-width: 400;
     margin: 50px auto 0;
     display: flex;
-
 }
 .gamer-img{
     width: 60%;
@@ -306,29 +305,48 @@ nav{
 }
 /*  Play Instantly ends */
 
-/* icon-containar start */
-.icon-containar{
+/* game-icon-containar start */
+
+.game-containar{
+    height: 427px;
+    flex-shrink: 0;
+   background-color: rgb(246, 246, 245);
+   align-items: center;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+
+   grid-template-columns: repeat(5, 1fr);
+
+}
+.game-icon-containar{
+    width: 200px;
+    border-radius: 40px;
+    background-color:#FFF ;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 50px;
-    text-align: center;
-
-   
+    gap: 10px;
 }
-.icon-containar img {
- 
-
-}
-.icon-containar-2{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 20px;
-    text-align: center;
+.game-containar:hover{
+    border-color: red;
+    color: #FF42A5;
 }
 
-/* icon-containar end */
+.game-icon-containar img{
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    
+
+
+  
+}
+
+
+
+
+
+/* game-icon-containar end */
 
 
 /* footer section start */
